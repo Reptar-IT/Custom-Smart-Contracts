@@ -1,4 +1,4 @@
-DailyRICO.sol
+DaleyReco.sol
 ----------------
 
 A transfereable token used as a share/stock in an organization or ecosystem.
@@ -37,7 +37,7 @@ Functionalities:
 - The actual security asset / share
 
 
-EscrowForDailyReco.sol
+EscrowForDaleyReco.sol
 ------------------------
 
 Escrow contracts can be used "as is" or modified to function as payment processor to recieve payments from sales, fees or dividends from other contracts.
