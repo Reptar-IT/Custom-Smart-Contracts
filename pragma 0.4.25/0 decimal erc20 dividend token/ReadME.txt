@@ -5,14 +5,18 @@ This model allows a public and accurate calculation of income. Even dividends ca
 Shares can transfered freely. 
 Shares can also be lent out to individuals, other businesess or organizations for a period of time to allow them to benefit from gained dividends 
 before being reposessed.
+Investors, shareholder and traders will have the option to choose wether to sell or loan out a share. 
 
 Scenario #1. If 1000 DaleyReco tokens exist and Bob owns 60% of the DaleyReco organization Bob must own 60% of existing DaleyReco tokens. 
-If on a specific day The DaleyReco organiazation earned 100 ETH then Bob has claim to withdraw 60 ETH.
+If on a specific day The DaleyReco organiazation earned 100 ETH then Bob has claim to and can withdraw 60 ETH.
 
 Scenario #2. If Bob lent mary 100 DaleyReco Tokens for 1 day Mary now has 10% of DaleyReco tokens. 
 Bob will not be able to reposess the 100 DaleyReco token until 24hrs has passed. 
-If on the specific day The DaleyReco organiazation earned 100 ETH then Mary has claim to withdraw 10 ETH. 
+Mary cannot transfer out any of the 100 tokens from her wallet.
+If on the specific day The DaleyReco organiazation earned 100 ETH then Mary has claim to and can withdraw 10 ETH. 
 Mary will continue to be able to withdraw ETH dividends even after the 1 day has passed until Bob decide to reposess the DaleyReco Tokens from Mary.
+
+
 
 
 DaleyReco.sol
