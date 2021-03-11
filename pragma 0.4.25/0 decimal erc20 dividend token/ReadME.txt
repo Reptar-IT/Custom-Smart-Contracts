@@ -1,3 +1,15 @@
+DailyRICO.sol
+----------------
+
+A transfereable token used as a share/stock in an organization or ecosystem.
+
+Token has address function and can recieve payments
+
+Token holders are shareholders. Shareholders can withdraw respective dividends immediately after a payment was recieved.
+
+Token can be set as beneficiary in escrow contracts.
+
+
 cant send whats owed: check
 cant retract before bond expires: check
 total bond value of borrower: check
@@ -23,3 +35,9 @@ Functionalities:
 - Transferable token currency
 - Proof of ownership of Shares
 - The actual security asset / share
+
+
+EscrowForDailyReco.sol
+------------------------
+
+Escrow contracts can be used "as is" or modified to function as payment processor to recieve payments from sales, fees or dividends from other contracts.
