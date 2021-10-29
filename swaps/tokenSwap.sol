@@ -68,6 +68,7 @@ contract Wrapper is Ownable {
     * before swap can begin operation.
     */
     function setSwapParams(address _inputToken, address _outputToken) public {
+        require(owner == msg.sender);
         inputToken = Reptar(_inputToken);
         outputToken = Reptar(_outputToken);
         inputTokenBalance = 0;
